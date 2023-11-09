@@ -1,0 +1,135 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+::selection {
+    color: rgb(15, 108, 10);
+}
+body {
+    background-color: rgb(32, 29, 29);
+    color:white;
+    padding: 10px;
+}
+nav {
+    font-family: 'Playpen Sans';
+    position: sticky;
+     top: 0;
+     width: 100%;
+     background: transparent;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    color: #f5f1f1
+    
+}
+nav ul li {
+    padding: 0 12px;
+    cursor: pointer;
+
+}
+.icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+.icon img {
+    width: 42px;
+    padding: 0 10px;
+    background-clip: border-box;
+}
+.container {
+    display: flex;
+    min-height: 65vh;
+    color: white;
+    padding: 20px;
+    font-family: 'Playpen Sans';
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.songbanner {
+    display: flex;
+    margin: 61px 115px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.songbanner img{
+ width: 50%;
+ height: 80%;
+}
+.bottom {
+    position: sticky;
+    height: 120px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    margin-top: 14px;
+}
+.icons i {
+    cursor: pointer;
+    padding: 20px;
+}
+ #progressBar {
+    width: 80vw;
+    cursor: pointer;
+ }
+ .songItem {
+    height: 20px;
+   width: 100%;
+     font-size: 13px;
+    display: flex;
+    background-color: rgba(188, 215, 212, 0.5);
+   color: white;
+   padding: 2px;
+   margin: 12px ;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 10px;
+ }
+ .songItem img {
+    height:20px;
+    margin-left:2px;
+    width: 20px;
+    border-radius:50%;
+ }
+ 
+ 
+ .timestamp {
+    margin: 23px 0;
+    padding: 10px;
+    
+ }
+ .timestamp i{
+    cursor: pointer;
+ }
+ .songItem-container {
+    margin-top: 24px;
+ }
+ .songinfo {
+    position: absolute;
+    justify-content: space-evenly;
+    left: 10vw;
+ }
+ .songinfo img {
+    height: 10px;
+    width: 50px;
+   opacity: 0;
+   transition: opacity 0.6s ease-in;
+    
+ }
