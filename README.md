@@ -1,3 +1,6 @@
+
+https://ab-286.github.io/spotify-clone/
+
 # spotify-clone
 
 Here we have designed spotify clone with javascript,html,css.
